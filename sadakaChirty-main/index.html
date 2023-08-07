@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadaka</title>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/e1340a253b.css" crossorigin="anonymous">
+
+    <!-- custome Style -->
+    <link rel="stylesheet" href="Assests/styles/style.css">
+
+
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+
+    <!-- start header -->
+    <header id="header">
+        <div class="logo1">
+            <a href="index.html"><img src="Assests/media/imgs/جمعية خيرية  انجليزي 2.svg" alt=""></a>
+        </div>
+
+        <aside id="asid">
+            <div class="logo">
+                <a href="index.html"><img src="Assests/media/imgs/جمعية خيرية  انجليزي 2.svg" alt=""></a>
+                <i class="bi bi-x-square" id="closeSide"></i>
+            </div>
+            <ul class="links">
+                <li><a href="#home" class="active mobile-link">HOME</a></li>
+                <li><a href="#about" class="mobile-link">About Us</a></li>
+                <li><a href="#Libraries" class="mobile-link">Libraries</a></li>
+                <li><a href="#projects" class="mobile-link">Projects</a></li>
+                <li>
+                    <div class="dropdown" class="mobile-link">
+                        <a class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " id="sel" href="index.html">EN </a></li>
+                            <li><a class="dropdown-item" href="index-ar.html">ع </a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="form.html" class="top-btn">Donate <i class="fa-solid fa-hand-holding-medical"></i></a></li>
+
+
+            </ul>
+            <div class="social">
+                <div class="contact-info">
+                    <h5><i class="bi bi-telephone-fill"></i>0593251510</h5>
+                    <h5><i class="bi bi-envelope-fill"></i>sadakaforsocial@gmail.com</h5>
+                </div>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/profile.php?id=100090857507277"><i
+                                class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCkYh-lt3X273akhbIkePP8g"><i
+                                class="bi bi-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/sadakaforsocial"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/skyk304/"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+
+
+        </aside>
+
+
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <div class="list" id="list">
+            <span class="ic">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div class="main-header">
+            <div class="social">
+                <div class="contact-info">
+                    <h5><i class="bi bi-telephone-fill"></i>0593251510</h5>
+                    <h5><i class="bi bi-envelope-fill"></i>sadakaforsocial@gmail.com</h5>
+                </div>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/profile.php?id=100090857507277"><i
+                                class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCkYh-lt3X273akhbIkePP8g"><i
+                                class="bi bi-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/sadakaforsocial"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/skyk304/"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="nav-bar">
+                <a href="index.html"><img src="Assests/media/imgs/جمعية خيرية  انجليزي 2.svg " class="logo"
+                        alt="logo"></a>
+                <ul class="links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#Libraries">Libraries</a></li>
+
+                    <li><a href="#projects">Projects</a></li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " id="sel" href="index.html">EN </a></li>
+                                <li><a class="dropdown-item" href="index-ar.html">ع </a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <a href="form.html" class="top-btn">Donate <i class="fa-solid fa-hand-holding-medical"></i></a>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <!-- end header -->
+
+
+    <!-- start-hero -->
+    <section class="hero sec-padding">
+        <div class="container">
+            <div class="heading " id="home">
+                <h2 class="fw-bold">قال-تعالى: (إِنَّ الْمُصَّدِّقِينَ وَالْمُصَّدِّقَاتِ وَأَقْرَضُوا اللَّـهَ قَرْضًا
+                    حَسَنًا يُضَاعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ)</h2>
+                <p>صدق الله العظيم</p>
+
+            </div>
+        </div>
+
+
+        <!-- hero-slider -->
+
+        <div class="swiper hero-slider container ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/clothes.jpg" alt="">
+               nsddfksd
+ fi           
+            </figure>
+
+                        <div class="content">
+                            <h3>Donat For </h3><span>Eid Clothing</span>
+                        </div>
+                        <p class="hero-text">Poor children's clothing in new clothes
+                            for Eid</p>
+                        <a href="#" class="top-btn hero-btn" id="button1">Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/sala.jpg" alt="">
+                        </figure>
+<p></p>
+                        <article>
+                            <h1>
+                                anas shanti 
+                            </h1>
+                             <i> 
+
+                             </i>
+
+                        </article>
+                        <div class="content">
+                            <h3>Donat For </h3><span>Food Basket</span>
+                        </div>
+                        <p class="hero-text">Distribution of the household's food and other supplies to poor families
+                        </p>
+                        <a href="#" class="top-btn" id="button2"> Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/saaem.jpg" alt="">
+                        </figure>
+
+                        <div class="content">
+                            <h3>Donat For </h3><span>Feed people in Ramadan</span>
+                        </div>
+                        <p class="hero-text">Distribution of food and people's food throughout the holy month of Ramadan
+                        </p>
+                        <a href="#" class="top-btn" id="button3">Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/zaka.jpg" alt="">
+                        </figure>
+
+                        <div class="content">
+                            <h3>Donat For </h3><span>Charity & Zakat</span>
+                        </div>
+                        <p class="hero-text">Zakat al-Amal and Zakat al-Fitr for poor families</p>
+                        <a href="#" class="top-btn" id="button4">Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/meat.jpg" alt="">
+                        </figure>
+
+                        <div class="content">
+                            <h3>Donat For </h3><span>To Deliver Meat to People</span>
+                        </div>
+                        <p class="hero-text">Meat is delivered to people especially sacrificial meat</p>
+                        <a href="#" class="top-btn " id="button5">Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/aytam.jpg" alt="">
+                        </figure>
+
+                        <div class="content">
+                            <h3>Donat For </h3><span>Ensure Orphans</span>
+                        </div>
+                        <p class="hero-text">Orphans are ensured in terms of housing, food and drinking and study</p>
+                        <a href="#" class="top-btn " id="button6">Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="content hero-box">
+                        <figure>
+                            <img src="Assests/media/imgs/hero-img.png" alt="">
+                        </figure>
+
+                        <div class="content">
+                            <h3>Donat For </h3><span>Any charity work</span>
+                        </div>
+                        <p class="hero-text">Any charity work to help people and alleviate problems and crises</p>
+                        <a href="#" class="top-btn " id="button7">Donate <i
+                                class="fa-solid fa-hand-holding-medical"></i></a>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next  next">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="swiper-button-prev  prev">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <!-- hero-slider -->
+
+
+
+
+
+
+    </section>
+
+
+    <!-- end hero-->
+
+
+    <!-- about -->
+    <section class="about en">
+        <!-- start About -->
+        <div class="heading" id="about">
+            <h3>About Us</h3>
+        </div>
+        <div class="container">
+            <div class="logo-about en">
+                <figure>
+                    <img src="Assests/media/imgs/جمعية خيرية  انجليزي 2.svg" alt="">
+                </figure>
+            </div>
+            <div class="accordion en">
+                <div class="content-container active">
+                    <div class="question">What is the definition of an association</div>
+                    <div class="answer">An independent charitable non-governmental association dedicated to
+                        alleviating poverty and suffering of Palestinian people in need, through the implementation of
+                        several charitable and development projects, as well as supporting young people and their
+                        intellectual,
+                        cultural and social advancement, in order to empower them, create jobs for them, and enhance
+                        their role in society.</div>
+                </div>
+                <div class="content-container">
+                    <div class="question">What is the message of the association</div>
+                    <div class="answer">Provide all services available to our people
+                        (social - living - health - recreational - educational.. etc.)
+                        to alleviate their suffering and ensure a decent life.</div>
+                </div>
+                <div class="content-container">
+                    <div class="question">What is the Society's Vision</div>
+                    <div class="answer">We look forward to serving our people, adopting their causes and defending
+                        them in order to alleviate their suffering and ensure a decent life for them as active persons.
+                        The Association contributes to the sustainable development of society under the tender of all
+                        its slices and children.</div>
+                </div>
+                <div class="content-container">
+                    <div class="question">What are the objectives of the Society</div>
+                    <div class="answer">- Ensuring orphans' and poor families and their needs and providing services to
+                        the wounded,
+                        the sick and those with special needs.
+                        - Provision of cash and emergency assistance and in-kind assistance to reluctant families.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--end  About -->
+
+    <!--end  About -->
+
+    <!-- Libraries -->
+
+    <section class="libraries">
+        <div class="heading" id="Libraries">
+            <h3>Videos</h3>
+        </div>
+
+        <div class="video-sliders">
+            <div class="container">
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/0bFofiJomro" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></div>
+                        <div class="swiper-slide"><iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/7DPdFikC08s" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></div>
+                        <div class="swiper-slide"><iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/0bFofiJomro" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe></div>
+
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="heading">
+            <h3>Photos</h3>
+        </div>
+
+        <div class="image-slider" id="image">
+            <div class="container">
+
+                <div class="box">
+                    <div class="image active">
+                        <img src="Assests/media/imgs/m6.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m9.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m11.png" alt="sadaka-img">
+                    </div>
+                </div>
+
+            </div>
+            <div class=" container second-part en heddin ">
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m1.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m2.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m3.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m4.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m5.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m6.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m7.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m8.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m9.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m10.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m11.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m12.png" alt="sadaka-img">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="Assests/media/imgs/m13.png" alt="sadaka-img">
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+
+
+
+            <span id="show" class="show-en">Show More <i class="fa-solid fa-angle-down"></i></span>
+
+        </div>
+    </section>
+    <!-- Libraries -->
+
+    <!-- Projects -->
+
+    <section class="projects" id="projects">
+        <div class="heading">
+            <h3>Projects</h3>
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="Assests/media/imgs/m9.png" alt="" />
+                <div class="content">
+                    <h4>food basket</h4>
+                    <p>The association works to distribute food to poor families</p>
+                </div>
+                
+            </div>
+            <div class="box">
+                <img src="Assests/media/imgs/img9.jpg" alt="" />
+                <div class="content">
+                    <h4>Orphan sponsorship</h4>
+                    <p>The association works to ensure orphans who have no shelter</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Assests/media/imgs/zaka.jpg" alt="" />
+                <div class="content">
+                    <h4>Donate money</h4>
+                    <p>The association works to donate money for the benefit of poor families and those who do not have a jobt</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Assests/media/imgs/meat.jpg" alt="" />
+                <div class="content">
+                    <h4>meat distribution</h4>
+                    <p>The association works to distribute Eid sacrificial meat to poor families</p>
+                </div>
+            </div>
+             
+            
+        </div>
+    </section>
+
+    <!-- projects -->
+
+
+
+    <!-- Start Footer -->
+    <footer class="footer" id="CONTACT">
+        <div class="container">
+            <div class="box">
+                <figure class="loge-footer">
+                    <img src="Assests/media/imgs/جمعية خيرية  انجليزي 2.svg" alt="">
+
+                </figure>
+            </div>
+            <div class="box">
+                <h4>Social Media</h4>
+                <ul class="social">
+
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100090857507277" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/sadakaforsocial" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCkYh-lt3X273akhbIkePP8g" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/skyk304/" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Gaza-Palestine</div>
+                </div>
+                     
+                <div class="line">
+                    <i class="bi bi-envelope-fill"></i>
+                    <div class="info">sadakaforsocial@gmail.com</div>
+                </div>
+                
+            
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+970593251510</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box footer-gallery">
+                <img src="Assests/media/imgs/Visa-or-Mastercard.jpg" alt="" />
+                <img src="Assests/media/imgs/Visa-or-Mastercard.jpg" alt="" />
+                <img src="Assests/media/imgs/Visa-or-Mastercard.jpg" alt="" />
+                <img src="Assests/media/imgs/Visa-or-Mastercard.jpg" alt="" />
+
+
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="shabakaTeam">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkM_7HF6RPu1mw8bIlzqXHJ1rCXv2YFKZamBXLec6Qt8i5mQ/viewform?usp=sf_link"
+                    class="shabaka"> <img src="Assests/media/imgs/Shabaka.jpeg"> <span>For Development &
+                        Design</span></a>
+            </div>
+            <p class="sadaka"> 2012- 2023 &copy; جمعية صدقة الخيرية </p>
+
+
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <div id="overlay"></div>
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Custome JS -->
+    <script src="Assests/script/script.js"></script>
+
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/e1340a253b.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
